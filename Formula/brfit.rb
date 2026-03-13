@@ -5,21 +5,21 @@
 class Brfit < Formula
   desc "AI 코딩 어시스턴트를 위한 코드 브리핑 도구"
   homepage "https://github.com/indigo-net/Brf.it"
-  version "0.19.0"
+  version "0.20.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/indigo-net/Brf.it/releases/download/v0.19.0/Brf.it_0.19.0_darwin_amd64.tar.gz"
-      sha256 "2f56edcf4eb81454c81a193cbad180c3afb2727e0befb6ec79d0ec9eec57cc23"
+      url "https://github.com/indigo-net/Brf.it/releases/download/v0.20.0/Brf.it_0.20.0_darwin_amd64.tar.gz"
+      sha256 "4ced5e061addc9a766228ba3152043634ca0581340689eb68d620722f003af05"
 
       def install
         bin.install "brfit"
       end
     end
     on_arm do
-      url "https://github.com/indigo-net/Brf.it/releases/download/v0.19.0/Brf.it_0.19.0_darwin_arm64.tar.gz"
-      sha256 "e4fd2ca3cf5800d30b7c468381741ff98fdaf394338fbb8a5948c317fb700135"
+      url "https://github.com/indigo-net/Brf.it/releases/download/v0.20.0/Brf.it_0.20.0_darwin_arm64.tar.gz"
+      sha256 "63604f8e651fdedc93e9d479f671b1e5e26aa936fa46d4f6cd68c5abb37d322d"
 
       def install
         bin.install "brfit"
@@ -30,8 +30,8 @@ class Brfit < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/indigo-net/Brf.it/releases/download/v0.19.0/Brf.it_0.19.0_linux_amd64.tar.gz"
-        sha256 "be2dfc22558f21579a0dbcfead5798ca6c59faf68838f4ea33d6999272cee314"
+        url "https://github.com/indigo-net/Brf.it/releases/download/v0.20.0/Brf.it_0.20.0_linux_amd64.tar.gz"
+        sha256 "59673dee47c1874d2cebb3ef2f3780f3dcccaba20e76fcae55b2ac8876345c61"
 
         def install
           bin.install "brfit"
@@ -40,8 +40,8 @@ class Brfit < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/indigo-net/Brf.it/releases/download/v0.19.0/Brf.it_0.19.0_linux_arm64.tar.gz"
-        sha256 "73515e2e708ba44cc634c70e1719171bee65785149e34529110b66640d66f598"
+        url "https://github.com/indigo-net/Brf.it/releases/download/v0.20.0/Brf.it_0.20.0_linux_arm64.tar.gz"
+        sha256 "06cc28e4c03932995bb481aa12c248d54f05bed60e4ae8866459b86e2befae2c"
 
         def install
           bin.install "brfit"
